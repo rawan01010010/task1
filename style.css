@@ -1,0 +1,104 @@
+body{
+    height:700px;
+    margin: 0;
+   /* background-color: burlywood; */
+    background-color: hsl(233, 47%, 7%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.page1{
+    margin: 90px;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 70%;
+    
+    
+}
+.rsec{
+    background-image: url(./images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.page1.rsec img{
+    width: 100%;
+    height: 100%;
+    border: solid 20px transparent ;
+
+
+}
+.lsec{
+    background-color: hsl(244, 38%, 16%);
+    width: 50%;
+    
+    display: flex;
+    justify-content: left;
+    /* align-items: center; */
+    flex-direction: column;
+    /* font-size: x-large; */
+    padding-left: 70px;
+    padding-top: 70px;
+   
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+  
+}
+.bgcolor{
+    background-color: hsla(277, 64%, 61%, 0.499);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+span{
+    color: hsl(277, 64%, 61%);
+}
+h1{
+    margin: 0;
+    color: white;
+    /* font-weight: 700; */
+    
+    /* font-family:(https://fonts.google.com/specimen/Inter); */
+   
+}
+h3{
+    color: rgba(120, 118, 118, 0.544);
+    margin: 0;
+    /* font-weight: 400; */
+    /* font-family: (https://fonts.google.com/specimen/Lexend+Deca); */
+    
+}
+   h2{
+    margin: 0;
+    color:  white;
+   
+   }
+   .downsec{
+    display: flex;
+    justify-content: left;
+    /* justify-content: space-around; */
+    padding-top: 70px;
+    margin-left: 0;
+   }
+.numbers1{
+    padding-right: 70px;
+   
+}
+.numbers2{
+    padding-right: 70px;
+   
+}
+
